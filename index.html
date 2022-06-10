@@ -1,1 +1,218 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="My name is Tharinda Attanayake. Welcome to my portfolio website!" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:title" content="Tharinda Attanayake" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="My name is Tharinda Attanayake. Welcome to my portfolio website!" />
+        <meta property="og:locale" content="en_GB" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <script
+            src="https://kit.fontawesome.com/077e61081a.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPH9C2X7GT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YPH9C2X7GT');
+        </script>
+        <title>Tharinda Attanayake</title>
+    </head>
+    <body>
+        <div id="hero">
+            <div id="hero-content">
+                <h1 id="name">Tharinda Attanayake</h1>
+                <h3 id="tagline">Welcome to my website!</h3>
+                <ul id="social-links">
+                    <li>
+                        <a target="_blank" href="https://github.com/tdba7/" rel="noopener noreferrer">
+                            <i class="fa fa-github"></i> github
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/tharinda-attanayake/"
+                        >
+                            <i class="fab fa-linkedin"></i> linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="fa fa-code"></i> projects
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://medium.com/@tharinda" rel="noopener noreferrer">
+                            <i class="fa fa-quote-right"></i> blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a id="scroll-link" href="#projects">
+                <img
+                    id="scroll-icon"
+                    src="img/down.svg"
+                    alt="keep scrolling!"
+                />
+            </a>
+        </div>
+        <section id="projects">
+            <div id="projects-content">
+                <h1 id="projects-header">Projects</h1>
+                <ul>
+                    <li class="light-box">
+                        <div class="project-title-bar">
+                            <a target="_blank" href="https://github.com/saputhebeast/laptop-cart" rel="noopener noreferrer">
+                                <h3>Laptop Selling Website</h3>
+                            </a>
+                            <ul class="project-links">
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/saputhebeast/laptop-cart"
+                                        ><i
+                                            class="project-link-item fa fa-github"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            A fully functional laptop selling website. This website has both admin and userinterfaces with separate privileges. All the
+                            data is stored and processed using a MySQL based database with PHP.
+                        </p>
+                        <p>
+                            Technologies: PHP, JavaScript, CSS, Bootstrap, MySQL, HTML
+                        </p>
+                    </li>
+                    <li class="light-box">
+                        <div class="project-title-bar">
+                            <a target="_blank" href="https://github.com/saputhebeast/my-calaries" rel="noopener noreferrer">
+                                <h3>Burned Calories Calculator</h3>
+                            </a>
+                            <ul class="project-links">
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/saputhebeast/my-calaries"
+                                        ><i
+                                            class="project-link-item fa fa-github"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            A web application which can use to predict burned calories count by entering gender, age, height, weight, heartrate and
+                            body temperature. The calculation part will be done by using a machine learning model.
+                        </p>
+                        <p>
+                            Technologies: Python (Flask, Scikit-learn), HTML, CSS
+                        </p>
+                    </li>
+                    <li class="light-box">
+                        <div class="project-title-bar">
+                            <a target="_blank" href="https://github.com/saputhebeast/face-mask-detector" rel="noopener noreferrer">
+                                <h3>Face Mask Detector</h3>
+                            </a>
+                            <ul class="project-links">
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/saputhebeast/face-mask-detector"
+                                        ><i
+                                            class="project-link-item fa fa-github"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            A face mask detecting web application which can recognise if useris wearing a mask or not. This application uses a deep
+                            learning model trained by the Kaggle dataset. It uses both the trained model and OpenCV to detect face masks.
+                        </p>
+                        <p>
+                            Technologies: Python (Flask, Numpy, Tensorflow, OpenCV), HTML, CSS, JavaScript
+                        </p>
+                    </li>
+                    <li class="light-box">
+                        <div class="project-title-bar">
+                            <a target="_blank" href="https://github.com/saputhebeast/covid-19-lk" rel="noopener noreferrer">
+                                <h3>Covid-19 Tracker</h3>
+                            </a>
+                            <ul class="project-links">
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/saputhebeast/covid-19-lk"
+                                        ><i
+                                            class="project-link-item fa fa-github"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            A Python 3.x GUI application which shows the Covid-19 Virus Analytics in Sri Lanka. This application’s data is based on
+                            the Health Promotion Bureau’s Covid-19 API and the time series plot is based on the Pomber’s COVID-19 Data.
+                        </p>
+                        <p>
+                            Technologies: Python (Pandas, Plotly, Requests), HTML, CSS
+                        </p>
+                    </li>
+                    <li class="light-box">
+                        <div class="project-title-bar">
+                            <a target="_blank" href="https://github.com/saputhebeast/rock-paper-scissor">
+                                <h3>Rock Paper Scissor</h3>
+                            </a>
+                            <ul class="project-links">
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://github.com/saputhebeast/rock-paper-scissor"
+                                        ><i
+                                            class="project-link-item fa fa-github"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>
+                            A Python 3.x program which mimics the hand game ‘Rock, Paper, Scissor’. A single playeris able to play this game with the
+                            computer which runs in the console. Game data is saved in a database and at the end of the game, player can get a report
+                            of all the game results.
+                        </p>
+                        <p>
+                            Technologies: Python, HTML, MySQL
+                        </p>
+                    </li>
+                    <li class="light-box more-proj">
+                        <a href="https://github.com/saputhebeast?tab=repositories" target="_blank" rel="noopener noreferrer">More Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </body>
+</html>
